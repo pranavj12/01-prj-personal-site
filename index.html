@@ -2,10 +2,218 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>My Personal Site</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pranav Jain | Designer & Developer</title>
   <link rel="stylesheet" href="style.css">
+  <!-- Google Icons for skill icons -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
 <body>
-  <!-- Add your HTML content here -->
+  
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <div class="container">
+      <div class="logo">Pranav Jain</div>
+      <ul class="nav-menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <h1>Welcome to my World</h1>
+        <p class="tagline">Dive deep into what you call, visuals.</p>
+        <a href="#contact" class="btn btn-primary">Try Getting in Touch</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Me Section -->
+  <section id="about" class="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <div class="about-content">
+        <div class="about-text">
+          <p>
+            Welcome to my portfolio! I'm a designer & developer passionate about creating 
+            functionally aesthetic websites. I am adept at Figma and front-end development,
+            striving to build amazing user experiences.
+          </p>
+          <p>
+            When I'm not working, I enjoy learning new technologies, solving problems, and 
+            collaborating with peers on exciting projects.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="skills">
+    <div class="container">
+      <h2>Skills</h2>
+      <div class="skills-grid">
+        <!-- Skill 1 -->
+        <div class="skill-card">
+          <span class="material-icons">code</span>
+          <h3>HTML</h3>
+          <p>Building semantic and clean HTML structure</p>
+        </div>
+        <!-- Skill 2 -->
+        <div class="skill-card">
+          <span class="material-icons">palette</span>
+          <h3>CSS</h3>
+          <p>Creating responsive and beautiful designs</p>
+        </div>
+        <!-- Skill 3 -->
+        <div class="skill-card">
+          <span class="material-icons">functions</span>
+          <h3>JavaScript</h3>
+          <p>Adding interactivity to web pages</p>
+        </div>
+        <!-- Skill 4 -->
+        <div class="skill-card">
+          <span class="material-icons">storage</span>
+          <h3>Databases</h3>
+          <p>Learning to work with data storage</p>
+        </div>
+        <!-- Skill 5 -->
+        <div class="skill-card">
+          <span class="material-icons">devices</span>
+          <h3>Responsive Design</h3>
+          <p>Making sites work on all devices</p>
+        </div>
+        <!-- Skill 6 -->
+        <div class="skill-card">
+          <span class="material-icons">school</span>
+          <h3>Learning</h3>
+          <p>Always growing and improving my skills</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="projects-grid">
+        <!-- Project 1 -->
+        <div class="project-card">
+          <div class="project-image">
+            <img src="img/5ab8e1_a6793397f5b844348a0194f63bc2d79f~mv2.avif" alt="Project 1">
+          </div>
+          <div class="project-info">
+            <h3>GlobeConnect App</h3>
+            <p>A gamified transit app integrating NFC journeys, points-based rewards, multiplayer interaction, and sponsored experiences for global commuters.</p>
+            <a href="#" class="btn btn-secondary">View Project</a>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card">
+          <div class="project-image">
+            <img src="img/5ab8e1_2f22a0af38f64977ab302c686dcea6a2~mv2.avif" alt="Project 2">
+          </div>
+          <div class="project-info">
+            <h3>Monopoly World Championship</h3>
+            <p>A pop-up exhibition merging Monopoly and Caesars, translating global championship ambition into immersive storytelling, spatial spectacle, and brand experience.</p>
+            <a href="#" class="btn btn-secondary">View Project</a>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project-card">
+          <div class="project-image">
+            <img src="img/Screenshot 2026-01-28 at 4.24.05 PM.png" alt="Project 3">
+          </div>
+          <div class="project-info">
+            <h3>Picturing Progress</h3>
+            <p>inclusive visual branding for ASU's MLK Jr. events. The project emphasized historical research, message clarity, and community impact through collaterals.</p>
+            <a href="#" class="btn btn-secondary">View Project</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2>Let's Connect</h2>
+      <p class="contact-intro">I'd love to hear from you! Feel free to reach out with any questions or opportunities.</p>
+      
+      <div class="contact-content">
+        <form class="contact-form">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+
+        <div class="contact-info">
+          <div class="contact-item">
+            <span class="material-icons">email</span>
+            <div>
+              <h4>Email</h4>
+              <p>pjain84@asu.edu</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <span class="material-icons">phone</span>
+            <div>
+              <h4>Phone</h4>
+              <p>+1 (623) 341-8544</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <span class="material-icons">location_on</span>
+            <div>
+              <h4>Location</h4>
+              <p>Phoenix, Arizona</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; Pranav Jain. All rights reserved.</p>
+      <div class="social-links">
+        <a href="https://github.com" target="_blank" title="GitHub">
+          <span class="material-icons">account_circle</span>
+        </a>
+        <a href="https://linkedin.com" target="_blank" title="LinkedIn">
+          <span class="material-icons">work</span>
+        </a>
+        <a href="https://twitter.com" target="_blank" title="Twitter">
+          <span class="material-icons">share</span>
+        </a>
+      </div>
+    </div>
+  </footer>
+
 </body>
 </html>
